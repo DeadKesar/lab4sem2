@@ -20,5 +20,6 @@ public:
 		return std::to_string(index) + " " + country + " " + city + " " + street + " " + korpus + " " + stroenie + " " + home;
 	}
 	int compare(PostAdres adr);
+
 };
 

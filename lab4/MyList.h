@@ -5,7 +5,6 @@
 struct Node
 {
     Node(PostAdres& adres);
-    ~Node();
     PostAdres adres;
     Node* next;
     bool isTail;
@@ -26,9 +25,6 @@ public:
     Node& Back();
     int Size();
     bool Empty();
-
-
-
     bool equal(MyList &list);
 };
 

@@ -50,7 +50,6 @@ int PostAdres::compare(PostAdres adr)
 	else if (this->home < adr.home)
 		return -1;
 	return 0;
-
 }
 
 

@@ -4,10 +4,6 @@
 
 Node::Node(PostAdres& adres) : adres(adres)
 { }
-Node::~Node()
-{
-	delete &this->adres;
-}
 MyList::MyList() : head(nullptr), tail(nullptr), size(0)
 {   }
 
