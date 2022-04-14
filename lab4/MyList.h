@@ -26,5 +26,6 @@ public:
     int Size();
     bool Empty();
     bool equal(MyList &list);
+    Node& operator [](int i);
 };
 

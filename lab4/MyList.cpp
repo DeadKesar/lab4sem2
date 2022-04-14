@@ -146,5 +146,14 @@ bool MyList::equal(MyList &list)
 		return true;
 	return false;
 }
+Node& MyList::operator [](int index)
+{
+	if (index >= size)
+		throw "Out of range";
+	Node *temp = this->head;
+	for (int i = 1; i < index; i++)
+		temp = temp->next;
+	return *temp;
+}
 
  
